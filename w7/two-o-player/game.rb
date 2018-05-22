@@ -3,8 +3,6 @@ require './question.rb'
 require './turn_manager.rb'
 
 class Game
-  #attr_reader :players
-
   def initialize
     player1 = Player.new('Player A')
     player2 = Player.new('Player B')
